@@ -1,0 +1,176 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>HappyDent</title>
+    <link rel="icon" href="https://icons-for-free.com/iconfiles/png/512/dentist+dentistry+medical+oral+hygiene+search+tooth+icon-1320165692437854440.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+    <script src="https://kit.fontawesome.com/0a14c826e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- whatsapp -->
+  <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+    <!--navegacion-->
+  <div class="nav_horario">
+      <p> <span style="color: skyblue;">Horario:</span> Lunes a Sábado - 10am a 6pm </span> <button style="font-size: 2vw;" href ="#" id="buttonlog">LOGIN</button></p>
+  </div>
+<!--popup  -->
+<div class="popup">
+  <div class="popup-content">
+    <img src="https://www.freeiconspng.com/thumbs/close-icon/black-close-icon-3.png" alt="close" class="close">
+    <img src="https://cdn0.iconfinder.com/data/icons/dentist-element-1/64/Clear-tooth-teeth-dentist-dental-tool-512.png" style="width: 50px; height: 50px;" alt="logo">
+    <input type="text" placeholder="Usuario">
+    <input type="password" placeholder="Contraseña">
+    <a href="#" class="buttonlog" >Login</a>
+  </div>
+</div>
+<script>
+  document.getElementById("buttonlog").addEventListener("click",function(){
+    document.querySelector(".popup").style.display="flex";
+  })
+  document.querySelector(".close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display="none";
+  })
+</script>
+<!-- logo-banner -->
+
+<!--Menu Alfredo - jairo me la pelas tu tambien almora -->
+<header>
+<div class="container">
+  <input type="checkbox" name="" id="check">
+  
+  <div class="logo-container">
+      <h3 class="logo">Brand<span>Name</span></h3>
+  </div>
+
+  <div class="nav-btn">
+      <div class="nav-links">
+          <ul>
+              <li class="nav-link" style="--i: .6s">
+                  <a href="index.html" >Inicio</a>
+              </li>
+              <li class="nav-link" style="--i: .85s">
+                  <a href="#">Nosotros<i class="fas fa-caret-down"></i></a>
+                  <div class="dropdown">
+                      <ul>
+                          <li class="dropdown-link">
+                              <a href="reconocimientos.html">Reconocimientos</a>
+                          </li>
+                          <li class="dropdown-link">
+                              <a href="MIsion-Vision.html">MIsion-Vision</a>
+                          </li>
+                          <div class="arrow"></div>
+                      </ul>
+                  </div>
+              </li>
+              <li class="nav-link" style="--i: 1.1s">
+                  <a href="#">Servicios<i class="fas fa-caret-down"></i></a>
+                  <div class="dropdown">
+                      <ul>
+                          <li class="dropdown-link">
+                              <a href="24.html">Emergencias24h</a>
+                          </li>
+                          <li class="dropdown-link">
+                              <a href="plan.html">Plan Dental</a>
+                          </li>
+                          <div class="arrow"></div>
+                      </ul>
+                  </div>
+              </li>
+              <li class="nav-link" style="--i: 1.35s">
+                  <a href="especialidades.html"><!-- <i class="fa fa-star fa-fw"></i> -->Especialidades</a>
+              </li>
+              <li class="nav-link" style="--i: 1.35s">
+                  <a href="sedes.html"><!-- <i class="fa fa-map-marker fa-fw"></i> -->Sedes</a>
+              </li>
+              <li class="nav-link" style="--i: 1.35s">
+                  <a href="blog.html"><!-- <i class="fa fa-file-text fa-fw"></i> -->Blog</a>
+              </li>
+              <li class="nav-link" style="--i: 1.35s">
+                  <a href="cita_linea.html"><!-- <i class="fa fa-calendar fa-fw"></i> -->Cita</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  <div class="hamburger-menu-container">
+      <div class="hamburger-menu">
+          <div></div>
+      </div>
+  </div>
+</div>
+</header>
+    <!--Slider-imagenes-->
+    <div id="slider">
+      <figure>
+        <img src="./imagenes/slider1 (1).jpg">
+        <img src="./imagenes/slider2 (1).jpg">
+        <img src="./imagenes/slider3 (1).jpg">
+        <img src="./imagenes/slider4 (1).jpg">
+      </figure>
+    </div>
+    <!--Informacion General-->
+    <div class="container_inf">
+      <div class="row">
+        <div class="card">
+          <div class="card-header">
+            <img src="https://www.flaticon.es/svg/static/icons/svg/3439/3439226.svg" alt="">
+          </div>
+          <div class="card-body">
+            <h3>Happy dent Su clínica Dental de confianza</h3>
+          <p> Miles de sonrisas alrededor del Perú nos respaldan como la primera y mejor Clínica Dental del pais. ¡Compruébalo tu mismo!</p>
+          <p class="reserva">¡RESERVA TU CITA EN LINEA!</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="https://www.flaticon.es/svg/static/icons/svg/3439/3439298.svg" alt="">
+          </div>
+          <div class="card-body">
+            <h3>Conoce algunas de nuestras Especialidades.</h3>
+          <p>Cada uno de nuestros Odontólogos destaca en su especialidad, porque para nosotros es importante brindarte calidez humana junto con tecnología de punta.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="https://www.flaticon.es/svg/static/icons/svg/3439/3439545.svg" alt="">
+          </div>
+          <div class="card-body">
+            <h3>Atención las 24 hr del día</h3>
+          <p>Llámanos al (01) 441-3000 y visítanos en Av. Arequipa 4105, Miraflores a toda hora, todos los días.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <img src="https://www.flaticon.es/svg/static/icons/svg/3439/3439811.svg" alt="">
+          </div>
+          <div class="card-body">
+            <h3>Aplicamos todos los protoclos de bioseguridad.</h3>
+          <p>Viva una experiencia completamente distinta en instalaciones de primera. Un ambiente con el standard más de alto de esterilización y bioseguridad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <p>© 2021 Copyright - Todos los Derechos Reservados HappyDent   </p>
+        <ul class="socials">
+          <li><a href="https://www.facebook.com/HappyDent-100783628681829"><img src ="https://i.ibb.co/s26YQkS/facebook.png" width="60" height="60"></a></li>
+          <li><a href="https://www.youtube.com"><img src ="https://i.ibb.co/m6X9RCW/youtube.png" width="60" height="60"></a></li>
+        </ul>
+      </div>
+    </footer>
+</body>
+</html>
